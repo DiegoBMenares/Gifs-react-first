@@ -10,7 +10,6 @@ export const GifGrid = ({category}) => {
     return (
         <>
             <h3>{ category }</h3>
-            console.log('hola ');
             
             {
                 isLoading && ( <h2>Cargando...</h2> )

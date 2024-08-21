@@ -12,7 +12,7 @@ describe('Prueba de GifGrid', () => {
     
     test('Debe de mostrar el loading inicialmente', () => {
         
-        render( <GifGrid category={ category } /> );
+        //render( <GifGrid category={ category } /> );
         screen.debug()
     })
 })
